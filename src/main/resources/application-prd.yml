@@ -1,0 +1,23 @@
+
+debug: false
+# logging.level.root
+# logging.file
+logging:
+  level:
+    root: info
+  file: /local/user/app-prd.log
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://155.23.45.88:3306/test
+    username: root
+    password: 123456
+
+# 自定义选项
+mall:
+  config:
+    name: 爱美线上商城
+    description: 商城
+    hot-sales: 20
+    show-advert: true

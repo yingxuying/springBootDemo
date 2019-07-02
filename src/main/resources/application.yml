@@ -1,0 +1,26 @@
+#debug: true
+## logging.level.root
+## logging.file
+#logging:
+#  level:
+#    root: info
+#  file: D:/WORK/study/java/projectDemos/springInitializr1/myspringboot.log
+#
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/test
+#    username: root
+#    password: 123456
+#
+## 自定义选项
+#mall:
+#  config:
+#    name: 爱美商城
+#    description: 商城
+#    hot-sales: 20
+#    show-advert: true
+
+spring:
+  profiles:
+    active: dev
